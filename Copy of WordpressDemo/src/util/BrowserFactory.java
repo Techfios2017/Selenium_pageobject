@@ -18,7 +18,7 @@ public class BrowserFactory {
 		
 		 if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "../WordpressDemo/drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:/auto1/chromedriver.exe");
 			
 			driver = new ChromeDriver();
 		}
